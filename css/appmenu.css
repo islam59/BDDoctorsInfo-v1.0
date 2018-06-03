@@ -1,0 +1,53 @@
+/*Style: For all section*/
+*{ font-size: 14px; }
+
+/*body style color animation*/
+body{
+   background-image: url('../logo/admin.jpg');
+   background-size: 100%;	
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+
+    -webkit-animation: mymove 50s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 40s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {background-color: rgba(0, 0, 0, 1); }
+    to {background-color: rgba(0, 0, 0, 0); }
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {background-color: rgba(0, 0, 0, 1); }
+    to {background-color: rgba(0, 0, 0, 0); }
+}
+
+
+
+/*Style: For admin banner*/
+.adminbanner{		color:white; font-size: 14px; }
+.logo{  }
+.logo img{  }/* END: logo style*/
+
+
+.topmenuadmin{  }
+.profilemenu{  background-color: black;}/*END: profile menu style*/
+
+/*Style: Top Menu admin style*/
+.contentadmin{  }
+
+.topmenu{ color:white;  font-size:14px; }
+
+/*Style: left menu admin*/
+.leftmenuadmin{  }
+
+
+/*style for login*/
+.loginfield{ padding-top:100px;}
+
+
